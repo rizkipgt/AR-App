@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.splash-screen {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  opacity: 0;
+}
+
+.logo1 {
+  animation: fadeInMoveUp 2s forwards, fadeOut 1s 4s forwards;
+}
+
+.logo2 {
+  animation: fadeInMoveRight 2s 1s forwards, fadeOut 1s 4s forwards;
+}
+
+@keyframes fadeInMoveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInMoveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(113px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
