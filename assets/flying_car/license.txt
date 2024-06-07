@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flying Car
+* source:	https://sketchfab.com/3d-models/flying-car-d0efc1fe6c5c419896fe239d85c5e589
+* author:	skartemka (https://sketchfab.com/skartemka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flying Car" (https://sketchfab.com/3d-models/flying-car-d0efc1fe6c5c419896fe239d85c5e589) by skartemka (https://sketchfab.com/skartemka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

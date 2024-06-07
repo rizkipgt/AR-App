@@ -1,0 +1,11 @@
+Model Information:
+* title:	ガンダムEX/Gundam EX
+* source:	https://sketchfab.com/3d-models/exgundam-ex-120c475ecf10426e802ce9722b31f3f3
+* author:	みそ太郎 (https://sketchfab.com/nama_140)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ガンダムEX/Gundam EX" (https://sketchfab.com/3d-models/exgundam-ex-120c475ecf10426e802ce9722b31f3f3) by みそ太郎 (https://sketchfab.com/nama_140) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

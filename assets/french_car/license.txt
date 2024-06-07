@@ -1,0 +1,11 @@
+Model Information:
+* title:	French Car
+* source:	https://sketchfab.com/3d-models/french-car-7e2b3ed8c92f4e4e8c23dc02f00cdb1d
+* author:	arthursgqg (https://sketchfab.com/arthursgqg)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "French Car" (https://sketchfab.com/3d-models/french-car-7e2b3ed8c92f4e4e8c23dc02f00cdb1d) by arthursgqg (https://sketchfab.com/arthursgqg) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

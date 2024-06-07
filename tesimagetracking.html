@@ -1,0 +1,86 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    </head>
+
+    <body>
+    <!-- <a-scene mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/rizkipangestu/AR@main/assets/mind/band.mind; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: 
+   false" device-orientation-permission-ui="enabled: false"> -->
+
+   <!-- <a-scene mindar-image="imageTargetSrc: #gambar; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: 
+   false" device-orientation-permission-ui="enabled: false">
+    <img id="gambar" src="./assets/mind/band.mind"> -->
+
+   <!-- <a-scene mindar-image="imageTargetSrc: ./assets/mind/band.mind; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: 
+   false" device-orientation-permission-ui="enabled: false"> -->
+
+    <a-assets>
+        
+    <!-- <a-asset-item id="rakun" src="https://cdn.jsdelivr.net/gh/rizkipangestu/AR@main/assets/rakun.gltf"></a-asset-item> -->
+    <!-- <a-asset-item id="raccoonModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/image-tracking/assets/band
+   example/raccoon/scene.gltf"></a-asset-item> -->
+
+
+   <a-asset-item id="car1model" src="./assets/car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car2model" src="./assets/cartoon_car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car3model" src="./assets/concept_car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car4model" src="./assets/fallout_car_2/scene.gltf"></a-asset-item>
+   <a-asset-item id="car5model" src="./assets/fallout_car_revisted_and_remade/scene.gltf"></a-asset-item>
+   <a-asset-item id="car6model" src="./assets/flying_car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car7model" src="./assets/french_car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car8model" src="./assets/generic_passenger_car_pack/scene.gltf"></a-asset-item>
+   <a-asset-item id="car9model" src="./assets/old_rusty_car/scene.gltf"></a-asset-item>
+   <a-asset-item id="car10model" src="./assets/retrowave_lowpoly_car_remake/scene.gltf"></a-asset-item>
+   <a-asset-item id="rakun" src="./assets/rakun.gltf"></a-asset-item>
+
+   </a-assets>
+
+    <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+    
+    <!-- <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#rakun" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#bearModel" animation-mixer>
+    </a-entity> -->
+
+    <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#carmodel" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car2model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car3model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car4model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car5model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.09 0.09 0.09" src="#car6model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car7model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car8model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 0">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car9model" animation-mixer>
+    </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+    <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#car10model" animation-mixer>
+    </a-entity>
+
+    
+    </a-scene>
+    
+    </body>
+    </html>
+   

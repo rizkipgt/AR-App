@@ -1,0 +1,129 @@
+<hhtml>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-face-aframe.prod.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+	const list = ["car1", "car2", "car3", "car4", "car5", "car6", "car7", "car8", "car9", "car10"];
+	const visibles = [false, false, false, false, false, false, false, false, false, false];
+	const setVisible = (button, entities, visible) => {
+	  if (visible) {
+	    button.classList.add("selected");
+	  } else {
+	    button.classList.remove("selected");
+	  }
+	  entities.forEach((entity) => {
+	    entity.setAttribute("visible", visible);
+	  });
+	}
+	list.forEach((item, index) => {
+	  const button = document.querySelector("#" + item);
+	  const entities = document.querySelectorAll("." + item + "-entity");
+	  setVisible(button, entities, visibles[index]);
+	  button.addEventListener('click', () => {
+	    visibles[index] = !visibles[index];
+	    setVisible(button, entities, visibles[index]);
+	  });
+	});
+      })
+    </script>
+    <style>
+      body {
+        margin: 0;
+      }
+      .example-container {
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .options-panel {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+      }
+      .options-panel img {
+	border: solid 2px;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	cursor: pointer;
+      }
+      .options-panel img.selected {
+	border-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="example-container">
+      <div class="options-panel">
+	<img id="car1" src="./assets/thubnail/car1.png"/>
+	<img id="car2" src="./assets/thubnail/car2.png"/>
+	<img id="car3" src="./assets/thubnail/car3.png"/>
+  <img id="car4" src="./assets/thubnail/car4.png"/>
+	<img id="car5" src="./assets/thubnail/car5.png"/>
+	<img id="car6" src="./assets/thubnail/car6.png"/>
+  <img id="car7" src="./assets/thubnail/car7.png"/>
+	<img id="car8" src="./assets/thubnail/car8.png"/>
+	<img id="car9" src="./assets/thubnail/car9.png"/>
+  <img id="car10" src="./assets/thubnail/dara.png"/>
+	
+      </div>
+      <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-assets>
+            <a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
+            <a-asset-item id="car1model" src="./assets/car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car2model" src="./assets/cartoon_car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car3model" src="./assets/concept_car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car4model" src="./assets/fallout_car_2/scene.gltf"></a-asset-item>
+            <a-asset-item id="car5model" src="./assets/fallout_car_revisted_and_remade/scene.gltf"></a-asset-item>
+            <a-asset-item id="car6model" src="./assets/flying_car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car7model" src="./assets/french_car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car8model" src="./assets/generic_passenger_car_pack/scene.gltf"></a-asset-item>
+            <a-asset-item id="car9model" src="./assets/old_rusty_car/scene.gltf"></a-asset-item>
+            <a-asset-item id="car10model" src="./assets/dara/ImageToStl.com_dara.gltf"></a-asset-item>
+          
+           
+        </a-assets>
+        <a-camera active="false" position="0 0 0"></a-camera>
+	<!-- head occluder -->
+        <a-entity mindar-face-target="anchorIndex: 10">
+	  <a-gltf-model mindar-face-occluder position="0 -0.3 0.15"rotation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 10">
+	  <a-gltf-model rotation="0 -0 0" position="0 0 0" scale="0.1 0.1 0.1" src="#car1model" class="car1-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 201">
+	  <a-gltf-model rotation="0 -0 0" position="0 0 0" scale="0.015 0.015 0.015" src="#car2model" class="car2-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 10">
+	  <a-gltf-model rotation="0 180 0" position="0 -1 -0.5" scale="1 1 1" src="#car3model" class="car3-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 19">
+	  <a-gltf-model rotation="0 -0 0" position="0 0 0" scale="0.0007 0.0007 0.0007" src="#car4model" class="car4-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 54">
+	  <a-gltf-model rotation="0 0 0" position="0 0 0" scale="0.0009 0.0009 0.0009" src="#car5model" class="car5-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 284">
+	  <a-gltf-model rotation="0 190 0" position="0 0 0" scale="0.07 0.07 0.07" src="#car6model" class="car6-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 369">
+	  <a-gltf-model rotation="0 90 0" position="0 0 0" scale="0.05 0.05 0.05" src="#car7model" class="car7-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 168">
+	  <a-gltf-model rotation="0 180 0" position="0 0 0" scale="0.015 0.015 0.015" src="#car8model" class="car8-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 52">
+	  <a-gltf-model rotation="0 -90 0" position="0 -0.3 0" scale="0.0004 0.0004 0.0004" src="#car9model" class="car9-entity" visible="false"></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 330">
+	  <a-gltf-model rotation="-0.1 -0 0" position="0 0 0" scale="0.002 0.002 0.002" src="#car10model" class="car10-entity" visible="false"></a-gltf-model> 
+        </a-entity>
+        
+      </a-scene>
+    </div>
+  </body>
+</html>

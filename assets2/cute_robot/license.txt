@@ -1,0 +1,11 @@
+Model Information:
+* title:	oBot - Cute Robot Challenge
+* source:	https://sketchfab.com/3d-models/obot-cute-robot-challenge-17fe944bd57941cabb698fe9d0a4f3c2
+* author:	Warkarma (https://sketchfab.com/warkarma)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "oBot - Cute Robot Challenge" (https://sketchfab.com/3d-models/obot-cute-robot-challenge-17fe944bd57941cabb698fe9d0a4f3c2) by Warkarma (https://sketchfab.com/warkarma) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,287 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./assets2/mind/targets.mind; maxTrack: 12"
+      color-space="sRGB"
+      renderer="colorManagement: true, physicallyCorrectLights"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false"
+    >
+      <a-assets>
+        <a-asset-item
+          id="model1"
+          src="./assets2/arctic_peeper/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item id="model2" src="./assets2/bot/scene.gltf"></a-asset-item>
+        <a-asset-item
+          id="model3"
+          src="./assets2/box_robot/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item id="model4" src="./assets2/cat/scene.gltf"></a-asset-item>
+        <a-asset-item
+          id="model5"
+          src="./assets2/cute_robot/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="model6"
+          src="./assets2/fishie/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="model7"
+          src="./assets2/gundam/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="model8"
+          src="./assets2/mech_drone/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="model9"
+          src="./assets2/playground/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item id="model10" src="./assets2/ra/scene.gltf"></a-asset-item>
+        <a-asset-item
+          id="model11"
+          src="./assets2/robot_tinju/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="model12"
+          src="./assets2/toy_robot/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/1.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 -0.1 0.4"
+          scale="333 333 333"
+          src="#model1"
+          animation-mixer
+        ></a-gltf-model>
+        <!-- <a-text
+          value="01. Arctic Peeper"
+          align="center"
+          position="0 -0.6 0"
+          scale="0.5 0.5 0.5"
+          color="#FFFFFF"
+        ></a-text> -->
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/2.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0.2"
+          scale="0.005 0.005 0.005"
+          src="#model2"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/3.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0"
+          scale="0.15 0.15 0.15"
+          src="#model3"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/4.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0"
+          scale="0.35 0.35 0.35"
+          src="#model4"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/5.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0.3"
+          scale="1 1 1"
+          src="#model5"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 5">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/6.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0.05 0"
+          scale="0.4 0.4 0.4"
+          src="#model6"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 6">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/7.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0.27 0"
+          scale="0.4 0.4 0.4"
+          src="#model7"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 7">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/8.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0.1 0"
+          scale="2 2 2"
+          src="#model8"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/9.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0"
+          scale="0.27 0.27 0.27"
+          src="#model9"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 9">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/10.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0.15 0"
+          scale="0.35 0.35 0.35"
+          src="#model10"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 10">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/11.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0.2 0"
+          scale="0.0011 0.0011 0.0011"
+          src="#model11"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 11">
+        <a-plane
+          width="1"
+          height="1"
+          position="0 0 0"
+          rotation="0 0 0"
+          src="./assets2/tatakan/12.png"
+        ></a-plane>
+        <a-gltf-model
+          rotation="90 0 0 "
+          position="0 0 0"
+          scale="0.15 0.15 0.15"
+          src="#model12"
+          animation-mixer
+        ></a-gltf-model>
+      </a-entity>
+    </a-scene>
+
+    <button
+      class="back-button"
+      onclick="window.location.href='https://rizkipgt.github.io/PortfolioAR/'"
+    >
+      Back
+    </button>
+    <img
+      src="assets2/logoarrizki.png"
+      alt="Logo"
+      class="logo"
+      style="width: 221px; height: 221px"
+    />
+    <!-- <div class="watermark">rizkipgt</div> -->
+  </body>
+</html>

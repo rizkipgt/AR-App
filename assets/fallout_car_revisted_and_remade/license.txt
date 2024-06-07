@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fallout Car (Revisted and Remade)
+* source:	https://sketchfab.com/3d-models/fallout-car-revisted-and-remade-bcfc05da3d1e40b7a2aae366d960a2f1
+* author:	Renafox (https://sketchfab.com/kryik1023)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fallout Car (Revisted and Remade)" (https://sketchfab.com/3d-models/fallout-car-revisted-and-remade-bcfc05da3d1e40b7a2aae366d960a2f1) by Renafox (https://sketchfab.com/kryik1023) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
