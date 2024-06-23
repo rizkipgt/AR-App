@@ -500,7 +500,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .blogs .blog {
   position: relative;
@@ -567,7 +567,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  left-content: space-between;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
@@ -991,4 +991,122 @@ section {
   }
 }
 
+.btn {
+  max-width: max-content;
+  color: var(--color-primary);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-4);
+  transition: var(--transition-1);
+}
+
+.btn-primary {
+  border-color: var(--color-primary);
+}
+
+.contact .btn-primary {
+  max-width: unset;
+  width: 100%;
+  background: var(--color-primary);
+  color: var(--bg-primary);
+}
+
+:is(a, button, select) {
+  outline-color: var(--scarlet);
+  outline-offset: 3px;
+}
+select {
+  cursor: pointer;
+}
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
 /*# sourceMappingURL=styles.css.map */
+
+@media screen and (max-width: 1023px) {
+  .home__cards {
+    grid-template-columns: 240px;
+    justify-content: center;
+  }
+
+  .home__card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .home__card-img {
+    transition: transform 0.4s;
+  }
+
+  .home__card-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      hsla(0, 0%, 0%, 0) 50%,
+      hsl(0, 0%, 0%) 125%
+    );
+  }
+
+  .home__card-title {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    font-size: var(--h3-font-size);
+    z-index: 1;
+  }
+
+  .home__card:hover .home__card-img {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .home__cards {
+    grid-template-columns: repeat(4, 230px);
+  }
+
+  .home__card-title {
+    left: 1.5rem;
+    bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .home__container,
+  .about__container,
+  .explore__content,
+  .join__container {
+    grid-template-columns: 380px;
+    justify-content: center;
+  }
+}
+
+.home__container {
+  position: relative;
+  padding-top: 3rem;
+  row-gap: 3rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
