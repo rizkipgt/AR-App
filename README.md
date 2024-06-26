@@ -12,13 +12,13 @@ Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
 <p align="center">
   <a href="https://youtu.be/bQGo939faqs">
-    <img src="img/thubnail.png" alt="Demo Video" width="800">
+    <img src="img/thubnail.png" alt="Demo Video" width="1000">
   </a>
 </p>
 
 ## Dokumentasi
 
-Berikut adalah beberapa dokumentasi dari proyek ini:
+Berikut adalah beberapa Dokumentasi dari Project ini:
 
 ### Dokumentasi 1
 <p align="center">
