@@ -1,10 +1,10 @@
-# Proyek Awesome
+# Project Augmented Reality
 
 <p align="center">
   <img src="assets2/logoarrizki.png" alt="Project Logo" width="200">
 </p>
 
-Selamat datang di repository proyek Awesome! Proyek ini adalah [deskripsi singkat proyek].
+Selamat datang di repository proyek Augmented Reality! Proyek ini adalah [deskripsi singkat proyek].
 
 ## Demo Video
 
@@ -12,7 +12,7 @@ Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
 <p align="center">
   <a href="https://youtu.be/bQGo939faqs">
-    <img src="https://img.youtube.com/vi/bQGo939faqs/0.jpg" alt="Demo Video" width="600">
+    <img src="https://img.youtube.com/vi/bQGo939faqs/0.jpg" alt="Demo Video" width="1000">
   </a>
 </p>
 
