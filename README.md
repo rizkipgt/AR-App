@@ -30,7 +30,7 @@ Berikut adalah beberapa cuplikan layar dari aplikasi:
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
-![QR Code](img/qr_AR.png)
+![QR Code](img/qrAR.png)
 
 ## Instalasi
 
