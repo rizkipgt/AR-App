@@ -11,9 +11,10 @@ Selamat datang di repository proyek Augmented Reality! Ini adalah Image Tracking
 Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
 <p align="center">
-  <a href="https://youtu.be/bQGo939faqs">
-    <img src="https://img.youtube.com/vi/bQGo939faqs/0.jpg" alt="Demo Video" width="1000">
-  </a>
+  <video width="1000" controls>
+    <source src="videos/artutorial.mp4" type="video/mp4">
+    Browser Anda tidak mendukung penyematan video.
+  </video>
 </p>
 
 ## Dokumentasi
