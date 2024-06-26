@@ -12,7 +12,7 @@ Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
  <p align="center">
   <a href="https://youtu.be/bQGo939faqs">
-    <img src="https://img.youtube.com/vi/bQGo939faqs/0.jpg" alt="Demo Video" width="600">
+    <img src="img/thubnail.png" alt="Demo Video" width="1000">
   </a>
 </p>
 
