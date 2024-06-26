@@ -40,6 +40,9 @@ Berikut adalah beberapa Dokumentasi dari Project ini:
   <img src="img/tutor4.jpg" alt="Feature C" width="600">
 </p>
 
+## Link Demo
+<a href="https://rizkipgt.github.io/AR-App">
+
 ## Kode QR
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
