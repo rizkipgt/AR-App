@@ -18,7 +18,7 @@ Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
 ## Dokumentasi
 
-Berikut adalah beberapa cuplikan layar dari aplikasi:
+Berikut adalah beberapa Dokumentasi dari Project ini:
 
 ### Dokumentasi 1
 <p align="center">
