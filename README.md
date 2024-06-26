@@ -53,7 +53,10 @@ Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini di mesin lokal Anda.
 
 ```bash
-git clone https://github.com/username/awesome-project.git
-cd awesome-project
+git clone https://github.com/rizkipgt/AR-App.git
+cd AR-App
 npm install
 npm start
+
+
+Terima kasih telah menggunakan Proyek Awesome! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
