@@ -21,7 +21,7 @@ Berikut adalah beberapa cuplikan layar dari aplikasi:
 ![Feature A](img/tutor2.jpg)
 
 ### Fitur B
-![Feature B](img/tutor3.jpgg)
+![Feature B](img/tutor3.jpg)
 
 ### Fitur C
 ![Feature C](img/tutor4.jpg)
@@ -30,7 +30,7 @@ Berikut adalah beberapa cuplikan layar dari aplikasi:
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
-![QR Code](img/qr AR.png)
+![QR Code](img/qr_AR.png)
 
 ## Instalasi
 
