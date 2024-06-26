@@ -41,7 +41,7 @@ Berikut adalah beberapa Dokumentasi dari Project ini:
 </p>
 
 ## Link Demo
-<a href="https://rizkipgt.github.io/AR-App">
+<a href="https://rizkipgt.github.io/AR-App"></a>
 
 ## Kode QR
 
