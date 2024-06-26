@@ -61,3 +61,6 @@ git clone https://github.com/rizkipgt/AR-App.git
 cd AR-App
 npm install
 npm start
+```
+##
+Terima kasih telah menggunakan Proyek in! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
