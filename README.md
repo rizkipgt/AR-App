@@ -4,13 +4,13 @@
   <img src="assets2/logoarrizki.png" alt="Project Logo" width="200">
 </p>
 
-Selamat datang di repository proyek Augmented Reality! Ini adalah Image Tracking merupakan salah satu teknik kunci dalam teknologi AR. Teknik ini memungkinkan perangkat AR untuk mengenali dan melacak gambar tertentu di dunia nyata, kemudian menambahkan elemen digital di atas gambar tersebut. Dengan Image Tracking, perangkat AR dapat mendeteksi pola atau fitur unik dari gambar yang telah diprogram sebelumnya, memproses informasi tersebut, dan menambahkan konten digital secara akurat di lokasi yang tepat.
+Selamat datang di repository proyek Augmented Reality! Ini adalah Image Tracking, salah satu teknik kunci dalam teknologi AR. Teknik ini memungkinkan perangkat AR untuk mengenali dan melacak gambar tertentu di dunia nyata, kemudian menambahkan elemen digital di atas gambar tersebut. Dengan Image Tracking, perangkat AR dapat mendeteksi pola atau fitur unik dari gambar yang telah diprogram sebelumnya, memproses informasi tersebut, dan menambahkan konten digital secara akurat di lokasi yang tepat.
 
 ## Demo Video
 
 Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
- <p align="center">
+<p align="center">
   <a href="https://youtu.be/bQGo939faqs">
     <img src="img/thubnail.png" alt="Demo Video" width="1000">
   </a>
@@ -41,7 +41,8 @@ Berikut adalah beberapa Dokumentasi dari Project ini:
 </p>
 
 ## Link Demo
-<a href="https://rizkipgt.github.io/AR-App"></a>
+
+Anda dapat melihat demo proyek ini dengan mengunjungi [link demo berikut](https://rizkipgt.github.io/AR-App).
 
 ## Kode QR
 
@@ -60,6 +61,3 @@ git clone https://github.com/rizkipgt/AR-App.git
 cd AR-App
 npm install
 npm start
-```
-##
-Terima kasih telah menggunakan Proyek ini! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
