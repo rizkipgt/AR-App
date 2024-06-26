@@ -8,29 +8,29 @@ Selamat datang di repository proyek Awesome! Proyek ini adalah [deskripsi singka
 
 Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
-[![Demo Video](https://img.youtube.com/vi/bQGo939faqs/0.jpg)](https://youtu.be/bQGo939faqs)
+[![Demo Video](https://img.youtube.com/vi/bQGo939faqs/0.jpg)](videos/artutorial.mp4)
 
 ## Screenshot
 
 Berikut adalah beberapa cuplikan layar dari aplikasi:
 
 ### Halaman Utama
-![Homepage](path/to/screenshot1.png)
+![Homepage](img/tutor1.jpg)
 
 ### Fitur A
-![Feature A](path/to/screenshot2.png)
+![Feature A](img/tutor2.jpg)
 
 ### Fitur B
-![Feature B](path/to/screenshot3.png)
+![Feature B](img/tuto3.jpgg)
 
 ### Fitur C
-![Feature C](path/to/screenshot4.png)
+![Feature C](img/tutor4.jpg)
 
 ## Kode QR
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
-![QR Code](path/to/qrcode.png)
+![QR Code](img/qr-AR.png)
 
 ## Instalasi
 
