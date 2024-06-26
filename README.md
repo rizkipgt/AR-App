@@ -59,4 +59,4 @@ npm install
 npm start
 ```
 ##
-Terima kasih telah menggunakan Proyek Awesome! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
+Terima kasih telah menggunakan Proyek ini! Jangan lupa untuk memberikan ⭐ jika Anda menyukai proyek ini!
