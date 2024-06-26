@@ -1,6 +1,6 @@
 # Proyek Awesome
 
-![Project Logo](path/to/asset2/logoarrizki.png)
+![Project Logo](assets2/logoarrizki.png)
 
 Selamat datang di repository proyek Awesome! Proyek ini adalah [deskripsi singkat proyek].
 
