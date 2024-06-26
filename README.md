@@ -1,6 +1,8 @@
 # Proyek Awesome
 
-![Project Logo](assets2/logoarrizki.png)
+<p align="center">
+  <img src="assets2/logoarrizki.png" alt="Project Logo" width="200">
+</p>
 
 Selamat datang di repository proyek Awesome! Proyek ini adalah [deskripsi singkat proyek].
 
@@ -8,29 +10,43 @@ Selamat datang di repository proyek Awesome! Proyek ini adalah [deskripsi singka
 
 Tonton video demo di bawah ini untuk melihat bagaimana proyek ini bekerja:
 
-[![Demo Video](https://img.youtube.com/vi/bQGo939faqs/0.jpg)](https://youtu.be/bQGo939faqs)
+<p align="center">
+  <a href="https://youtu.be/bQGo939faqs">
+    <img src="https://img.youtube.com/vi/bQGo939faqs/0.jpg" alt="Demo Video" width="600">
+  </a>
+</p>
 
 ## Dokumentasi
 
 Berikut adalah beberapa cuplikan layar dari aplikasi:
 
 ### Dokumentasi 1
-![Homepage](img/tutor1.jpg)
+<p align="center">
+  <img src="img/tutor1.jpg" alt="Homepage" width="600">
+</p>
 
 ### Dokumentasi 2
-![Feature A](img/tutor2.jpg)
+<p align="center">
+  <img src="img/tutor2.jpg" alt="Feature A" width="600">
+</p>
 
 ### Dokumentasi 3
-![Feature B](img/tutor3.jpg)
+<p align="center">
+  <img src="img/tutor3.jpg" alt="Feature B" width="600">
+</p>
 
 ### Dokumentasi 4
-![Feature C](img/tutor4.jpg)
+<p align="center">
+  <img src="img/tutor4.jpg" alt="Feature C" width="600">
+</p>
 
 ## Kode QR
 
 Pindai kode QR di bawah ini untuk mengakses proyek ini langsung dari ponsel Anda:
 
-![QR Code](img/qrAR.png)
+<p align="center">
+  <img src="img/qrAR.png" alt="QR Code" width="200">
+</p>
 
 ## Instalasi
 
